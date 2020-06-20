@@ -1,0 +1,220 @@
+<!doctype html>
+
+<html>
+  <head>
+
+    <title>A Space Story</title>
+
+    <link rel="stylesheet" href="assets/fullpage.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Play&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: arial, helvetica;
+        color: #333;
+        color: rgba(0,0,0,0.5);
+      }
+
+      h1 {
+        font-family: 'Play', sans-serif;
+      }
+
+      p {
+        font-family:'Indie Flower', cursive;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 40px;
+      }
+
+      .section {
+        text-align: center;
+        color: #fff;
+      }
+
+      #section4 {
+        background-image: url(img/star-night.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      @keyframes startwinkle {
+        from {background-position:0 0;}
+        to {background-position:-10000px 5000px;}
+      }
+
+      @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:.9;}
+      }
+
+      .stars, .twinkling {
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        width:100%;
+        height:100%;
+        display:block;
+      }
+
+      .stars {
+        background:#000 url(img/stars.png) repeat top center;
+        z-index:0;
+      }
+
+      .twinkling{
+        background:transparent url(img/dark.png) repeat top center;
+        z-index:1;
+
+        animation:startwinkle 200s linear infinite;
+      }
+
+      .fade {
+        animation: fadeIn ease 20s forwards;
+      }
+
+
+
+  </style>
+
+  </head>
+
+  <body>
+
+  <div id="myContainer">
+
+<!-- First Slide (Section) -->
+
+    <div id="section" class="section">
+      <div class="stars">
+        <div class="twinkling">
+          <div class="slide">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1 class="d-none">3 Days Before</h1>
+                <p class="d-none">Well...I guess I don't quite know how to start this, but they said that writing <i class="fa fa-pencil"></i> a journal would help calm me down a little. Hmm...I don't quite know how writing a journal will help me cope with the idea of me leaving our home galaxy, but I guess it can't hurt. <strong>3 Days</strong>, that's going to go by quick...but it's kinda exciting. To know that I am heading to the very stars I have looked at my entire life...to know that I will be up there among them...the dream I have had ever since I was a kid...I am about the achieve it....</p>
+                <p class="d-none">It's pretty hard to sleep <i class="fa fa-cloud"></i> now...but I know I have to. Well I guess this writing is helping me calm down a little... <i class="fa fa-bed"></i><p>
+                  <br>
+                <p class="d-none" style="font-family: 'Play', sans-serif">Want a little relaxing space music while you read? Click the play button below.</p>
+                  <audio controls loop data-keepplaying>
+                    <source src="mp3/spaceambience.mp3" type="audio/mpeg">
+                    Your browser does not support this audio format
+                  </audio>
+
+
+              </div>
+              <div class="col-sm-6">
+                <img class="d-none img-fluid" src="img/looking-up-star.jpg" alt="Looking at the Stars from Earth">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Second Slide (Section) -->
+    <div id="section2" class="section">
+      <div class="stars">
+        <div class="twinkling">
+          <div class="slide">
+            <div class="row">
+              <div class="col-sm-6">
+                <img class="d-none img-fluid" src="img/earth-inside.jpg" alt="Looking At Earth">
+              </div>
+              <div class="col-sm-6">
+                <h1 class="d-none">Day 4</h1>
+                <p class="d-none">The Earth is absolutely beautiful. It's amazing that I have seen so many pictures and videos of Earth by all the astronauts <i class="fa fa-rocket"></i> before me, and I still can't believe it. I am living right now and I can't believe it...To know that I have lived here my entire life thus far, and I still haven't seen all of it. I always thought it crazy being on a mountain and seeing miles around...but now...now I am seeing entire continents and oceans! Well...here soon we will be basically sling-shotting <i class="fa fa-share"></i> ourselves to get to our destination and that's when the long part begins. Goodbye Earth...Goodbye Home <i class="fa fa-home"></i>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Third Slide (Section) -->
+    <div id="section3" class="section">
+      <div class="stars">
+        <div class="twinkling">
+          <div class="slide">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1 class="d-none">Day 237</h1>
+                <p class="d-none">Another Day...well...I think it's a day. It's wierd not having a sun <i class="fa fa-sun-o"></i> setting and rising. Now we just look at some of the clocks we have to keep track of time. Just a little digital monitor with numbers on it <i class="fa fa-clock-o"></i> basically runs your day...but we are all still getting by. We go through our routines...Ripley helps out will all the data logging, Cooper helps out with all the tech services, and Hudson...well he helps keep moral up when we all get bored. We should be reaching LV-426 (The name of our new home planet), in a few more months... but in all honesty...I like the silence out here. The view is something that can't be beat <i class="fa fa-star"></i>.</p>
+              </div>
+              <div class="col-sm-6">
+                <img class="d-none img-fluid" src="img/galaxy.jpg" alt="Another Galaxy">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Fourth Slide (Section) -->
+    <div id="section4" class="section">
+      <div class="slide">
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="d-none img-fluid" src="img/looking-up-star-2.jpg" alt="Looking at the Stars from Another Planet">
+          </div>
+          <div class="col-sm-6">
+            <h1 class="d-none">41 Days After</h1>
+            <p class="d-none">Just Another Day...I look back at this journal I wrote over the course of all this, and it's pretty amazing to me how much has changed. I look back at the first day I started this journal, and see just how nervous I was..and if writing this thing would really help. Now here I am...writing in this journal under a tree <i class="fa fa-tree"></i> sitting on a hill...just like on Earth <i class="fa fa-globe"></i>. The Endurance has served as our primary base of operations for some time now, but we are now exploring and going out even more <i class="fa fa-map"></i>. It's funny looking back at everything...now that I am among the very stars that I once used to look upon.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+<!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	  <script src="assets/fullpage.min.js"></script>
+	  <script type="text/javascript">
+      new fullpage('#myContainer', {
+          sectionsColor: ['#9C22E6', '#4BBFC3', '#7BAABE', '#000', '#ccddff', '#ccc'],
+          slidesNavigation: true,
+      	afterLoad: function(origin, destination, direction){
+  			var loadedSection = this;
+
+  			if (destination.index == 0) {
+          $("#section p").removeClass("d-none").addClass("animate__animated animate__fadeInBottomLeft");
+  				$("#section h1").removeClass("d-none").addClass("animate__animated animate__fadeInTopLeft");
+          $("#section img").removeClass("d-none").addClass("fade");
+  			}
+
+  			if (destination.index == 1) {
+          $("#section2 p").removeClass("d-none").addClass("animate__animated animate__fadeInBottomRight");
+  				$("#section2 h1").removeClass("d-none").addClass("animate__animated animate__fadeInTopRight");
+          $("#section2 img").removeClass("d-none").addClass("fade");
+  			}
+
+        if (destination.index == 2) {
+          $("#section3 p").removeClass("d-none").addClass("animate__animated animate__fadeInBottomLeft");
+  				$("#section3 h1").removeClass("d-none").addClass("animate__animated animate__fadeInTopLeft");
+          $("#section3 img").removeClass("d-none").addClass("fade");
+        }
+
+        if (destination.index == 3) {
+          $("#section4 p").removeClass("d-none").addClass("animate__animated animate__fadeInBottomRight");
+  				$("#section4 h1").removeClass("d-none").addClass("animate__animated animate__fadeInTopRight");
+          $("#section4 img").removeClass("d-none").addClass("fade");
+        }
+
+
+  		}
+      });
+    </script>
+
+  </body>
+
+
+</html>
