@@ -50,6 +50,11 @@
         100% {opacity:.9;}
       }
 
+      @keyframes rotation {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(359deg);}
+      }
+
       .stars, .twinkling {
         position:absolute;
         top:0;
@@ -75,6 +80,10 @@
 
       .fade {
         animation: fadeIn ease 20s forwards;
+      }
+
+      .rotate {
+        animation: rotation 160s infinite linear;
       }
 
 
@@ -124,7 +133,9 @@
           <div class="slide">
             <div class="row">
               <div class="col-sm-6">
-                <img class="d-none img-fluid" src="img/earth-inside.jpg" alt="Looking At Earth">
+                <div class="rotate">
+                  <img class="d-none img-fluid" src="img/earth-inside.jpg" alt="Looking At Earth">
+                </div>
               </div>
               <div class="col-sm-6">
                 <h1 class="d-none">Day 4</h1>
